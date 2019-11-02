@@ -16,5 +16,5 @@ var paraph = document.getElementById('texte');
 document.querySelector('button').addEventListener('click', function(){
 var text = paraph.textContent;
 var arrayText = text.split('');// coupe la phrase à chanque élément
-alert('Le caractère à la 4ème place est ' + arrayText[4] + ' ,à la 10ème place est ' + arrayText[10] + ', à la 35ème place est ' + arrayText[35] + ', à la 59ème place est ' + arrayText[59] + '.');
+alert('Le caractère à la 4ème place est ' + arrayText[3] + ' ,à la 10ème place est ' + arrayText[9] + ', à la 35ème place est ' + arrayText[34] + ', à la 59ème place est ' + arrayText[58] + '.');
 });
